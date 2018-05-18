@@ -3,6 +3,8 @@
 <html>
 <head>
 <title>Home</title>
+<link rel="stylesheet" href="<c:url value='/resources/bootstrap/css/bootstrap.min.css' />">
+
 </head>
 <body>
 	<h1>Hello world!</h1>
@@ -28,5 +30,9 @@
 		</c:forEach>
 
 	</table>
+	
+	<script type="text/javascript" src="<c:url value='/resources/bootstrap/js/jquery-3.3.1.min.js' />">
+	<script type="text/javascript" src="<c:url value='/resources/bootstrap/js/bootstrap.min.js' />">
+	
 </body>
 </html>

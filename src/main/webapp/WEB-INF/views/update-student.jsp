@@ -9,6 +9,7 @@
 <title>Insert title here</title>
 </head>
 <c:url value="/update" var="update_url"></c:url>
+
 <body>
 	<h1>Update student details</h1>
 	<form:form method="post" modelAttribute="student" action="${update_url}">
